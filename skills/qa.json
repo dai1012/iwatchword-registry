@@ -1,0 +1,12 @@
+{
+  "id": "qa",
+  "version": "1.0.0",
+  "kind": "content",
+  "enabled": true,
+  "minimumAppVersion": "1.0.0",
+  "supportedTargetLanguages": ["*"],
+  "parameters": [],
+  "authoringInstructions": "Generate question and answer pairs.",
+  "validationRules": {},
+  "presentationRequirements": { "variant": "twoLine" }
+}

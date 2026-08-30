@@ -1,0 +1,16 @@
+{
+  "id": "watch-three-line-fit",
+  "version": "1.0.0",
+  "kind": "constraint",
+  "enabled": true,
+  "minimumAppVersion": "1.0.0",
+  "supportedTargetLanguages": ["*"],
+  "parameters": [],
+  "authoringInstructions": "Keep content short: total three lines must fit without truncation.",
+  "validationRules": { "shortContent": { "maxLength": 64 } },
+  "presentationRequirements": {
+    "variant": "threeLine",
+    "noTruncation": true,
+    "fitRequirement": { "maxLines": 3, "overflowPolicy": "fail" }
+  }
+}

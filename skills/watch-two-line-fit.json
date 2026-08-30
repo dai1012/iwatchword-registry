@@ -1,0 +1,16 @@
+{
+  "id": "watch-two-line-fit",
+  "version": "1.0.0",
+  "kind": "constraint",
+  "enabled": true,
+  "minimumAppVersion": "1.0.0",
+  "supportedTargetLanguages": ["*"],
+  "parameters": [],
+  "authoringInstructions": "Keep QA short: two lines must fit without truncation.",
+  "validationRules": { "shortContent": { "maxLength": 64 } },
+  "presentationRequirements": {
+    "variant": "twoLine",
+    "noTruncation": true,
+    "fitRequirement": { "maxLines": 2, "overflowPolicy": "fail" }
+  }
+}

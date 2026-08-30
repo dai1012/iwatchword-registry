@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "skills": [
+    { "id": "jlpt", "version": "1.0.0", "kind": "content", "path": "skills/jlpt.json" },
+    { "id": "qa", "version": "1.0.0", "kind": "content", "path": "skills/qa.json" },
+    { "id": "watch-three-line-fit", "version": "1.0.0", "kind": "constraint", "path": "skills/watch-three-line-fit.json" },
+    { "id": "watch-two-line-fit", "version": "1.0.0", "kind": "constraint", "path": "skills/watch-two-line-fit.json" }
+  ]
+}

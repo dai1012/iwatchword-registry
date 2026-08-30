@@ -1,0 +1,14 @@
+{
+  "id": "jlpt",
+  "version": "1.0.0",
+  "kind": "content",
+  "enabled": true,
+  "minimumAppVersion": "1.0.0",
+  "supportedTargetLanguages": ["ja"],
+  "parameters": [
+    { "name": "level", "type": "enum", "required": true, "allowedValues": ["N1", "N2", "N3", "N4", "N5"] }
+  ],
+  "authoringInstructions": "Generate JLPT vocabulary for the given level. Keep each field concise to satisfy watch fit constraints when composed with WatchThreeLineFit.",
+  "validationRules": { "level": { "required": true, "enum": ["N1", "N2", "N3", "N4", "N5"] } },
+  "presentationRequirements": { "variant": "threeLine" }
+}
