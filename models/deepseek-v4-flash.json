@@ -1,0 +1,8 @@
+{
+  "id": "deepseek-v4-flash",
+  "providerId": "deepseek",
+  "displayName": "DeepSeek V4 Flash",
+  "enabled": true,
+  "isDefault": true,
+  "capabilities": []
+}

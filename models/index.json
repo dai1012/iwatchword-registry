@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "deepseek-v4-flash",
+      "path": "models/deepseek-v4-flash.json"
+    }
+  ]
+}

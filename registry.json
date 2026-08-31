@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "registry": "iwatchword-registry",
   "skillsIndex": "skills/index.json",
   "providersIndex": "providers/index.json",
   "modelsIndex": "models/index.json",
-  "updatedAt": "2026-08-30T00:00:00Z"
+  "updatedAt": "2026-09-01T00:00:00Z"
 }

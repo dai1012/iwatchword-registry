@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "providers": [
+    {
+      "id": "deepseek",
+      "path": "providers/deepseek.json"
+    }
+  ]
+}
