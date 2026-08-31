@@ -1,0 +1,11 @@
+{
+  "id": "deepseek",
+  "displayName": "DeepSeek",
+  "protocolFamily": "openai-compatible",
+  "endpoint": "https://api.deepseek.com/v1",
+  "enabled": true,
+  "isDefault": true,
+  "supportedModelIds": [
+    "deepseek-v4-flash"
+  ]
+}
